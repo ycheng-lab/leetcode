@@ -12,7 +12,7 @@ def reverse_integer(n: int) -> int:
         result = result * 10 + (n % 10)
         n //= 10
 
-    return result
+    return result * sign
 
 
 def solve_problem(n: int) -> None:
